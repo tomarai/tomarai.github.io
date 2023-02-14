@@ -26,28 +26,31 @@ $break: 768px;
 $sm-break: 576px;
 $x-sm-break: 320px;
 
+#blog-header {
+  background: #27323a;
+}
 
 /* THEME COLOR SCHEMES */
 html, html[data-theme="light"] {
   --background: #ffffff;
-  --blockquote: #eef7fa;
-  --selection: #d4d4d4;
-  --meta: #595959;
+  --blockquote: #bdbdbd;
+  --selection: #bdbdbd;
+  --meta: #757575;
   --link: #337ab7;
-  --header-background: #24292e;
-  --header-text: #ffffff;
-  --header-link: #383838;
-  --code-background: #E0E0E0;
-  --code-inline: #24292e;
-  --text-shadow: #3f3f3f;
-  --text: #262626;
-  --h1: #262626;
-  --h2: #262626;
-  --h3: #262626;
-  --h4: #262626;
-  --h5: #262626;
-  --h6: #262626;
-  --border: rgba(0, 0, 0, 0.2);
+  --header-background: #27323a;
+  --header-text: #a3f7bf;
+  --header-link: #bdbdbd;
+  --code-background: #27323a;
+  --code-inline: #ffffff;
+  --text-shadow: #29a19c;
+  --text: #212121;
+  --h1: #27323a;
+  --h2: #27323a;
+  --h3: #27323a;
+  --h4: #27323a;
+  --h5: #27323a;
+  --h6: #27323a;
+  --border: #bdbdbd;
 }
 
 html[data-theme="dark"] {

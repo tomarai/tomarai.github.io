@@ -28,6 +28,9 @@
                      {{ post.excerpt | strip_html | escape }}
                   {% endif %}
               </div>
+              <div class="excerpt">
+                  <a href="{{ post.url | relative_url }}">Read more</a>
+              </div>
           {% endif %}
       </span>
     </div>

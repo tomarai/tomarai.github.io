@@ -1,16 +1,17 @@
 # RSS specific
 rss: true         # Icons on the footer
+email_address: tomarai@proton.me
 feed:
   path: feed.xml  # RSS feed path
 
 # Share button options
 share:
-  email: true
-  facebook: true
-  linkedin: true
-  pinterest: true
+  email: false
+  facebook: false
+  linkedin: false
+  pinterest: false
   pocket:
-  reddit: true
-  tumblr: true
-  twitter: true
+  reddit: false
+  tumblr: false
+  twitter: false
   wordpress:
