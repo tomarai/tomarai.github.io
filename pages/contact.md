@@ -2,8 +2,8 @@
 layout: page
 title: Contact
 permalink: /contact/
-feature-img: "assets/img/banner.png"
 tags: [Page]
+icon: "fa-address-card"
 ---
 
 感想いただけますと励みになります

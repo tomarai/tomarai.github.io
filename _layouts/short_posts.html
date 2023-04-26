@@ -1,0 +1,30 @@
+---
+layout: page
+---
+
+<div class="home">
+  <div class="posts">
+    <div class="short-posts">
+      {% for item in site.short_posts reversed %}
+      <p>
+        <h4 class="short-title">
+          <a href="{{ item.url | relative_url }}">
+            <i class="far fa-file-alt" aria-hidden="true"></i>
+            {{ item.title }}
+          </a>
+
+          <div class="post-info">
+            <p class="meta">
+              {% assign date = item.date | default: "today" | date: "%B %-d, %Y" %}
+              {{ site.data.language.str_months[x] | default: date | date: "%B" }} {{ date | date: "%d, %Y" }}
+            </p>
+          </div>
+        </h4>
+        <div class="short-content">
+          {{ item.content | strip_html | truncate: '250' | escape }}
+        </div>
+      </p>
+      {% endfor %}
+    </div>
+  </div>
+</div>

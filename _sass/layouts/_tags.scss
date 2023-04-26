@@ -64,6 +64,36 @@
   }
 }
 
+.short-posts {
+  display: inline-block;
+  width: 100%;
+
+  .short-title {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    a {
+      margin-left: $padding-x-small;
+    }
+
+    .post-info {
+      float: right;
+    }
+  }
+
+  .short-content {
+    margin-top: 1%;
+    margin-left: $padding-medium;
+  }
+
+  .meta {
+    display: inline;
+    float: right;
+    font-size: 0.8em;
+    line-height: normal;
+  }
+}
+
 @media screen and (max-width: $sm-break) {
   .tag-posts .meta {
     display: none;
