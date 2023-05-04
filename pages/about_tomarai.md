@@ -2,9 +2,9 @@
 layout: author
 title: About tomarai
 permalink: /about/tomarai/
-hide: true
+icon: "fa-address-card"
 ---
 
-ブログを通じて考えを整理したい
+野球とボードゲームについてデータを見ながら話していきたいと思います
 
 連絡先: [tomarai@proton.me](mailto:tomarai@proton.me)
