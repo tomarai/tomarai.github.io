@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Great Western Trail: 出荷について考える"
-subtitle: 第2版 Arena
+subtitle: "Great Western Trail (グレートウェスタントレイル) 攻略"
 author: tomarai
 date: 2023-02-19
 tags: [GWT, Boardgame]
