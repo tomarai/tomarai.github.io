@@ -8,5 +8,5 @@ tags: [Baseball]
 
 今年は TampaBay Rays の投手起用法に関するメモを毎日つけていきます．
 
-[short_posts](https://tomarai.github.io/short_posts/) にて確認できますので，
+[Bullpen日記2023](https://tomarai.github.io/tbr_bullpen_2023/) にて確認できますので，
 コメント・感想お待ちしております．
