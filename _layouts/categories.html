@@ -1,0 +1,23 @@
+---
+layout: page
+---
+
+<div class="home">
+  {{ content }}
+
+  <div class="posts">
+    <h3>Recent posts</h3>
+     {% for post in site.posts %}
+        {% if post.tags contains page.target_tag %}
+        <h5 class="tag-title">
+            <a href="{{ post.url | relative_url }}">
+                <i class="far fa-file-alt" aria-hidden="true"></i>
+                {{ post.title }}
+            </a>
+
+            {% include blog/post_info.html date=post.date %}
+        </h5>
+        {% endif %}
+      {% endfor %}
+  </div>
+</div>

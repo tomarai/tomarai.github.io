@@ -40,7 +40,11 @@ paginate_path: "/blog/page:num"
 
 # PORTFOLIO
 collections:
-  short_posts:
+  categories:
+    sort_by: priority
+    output: true
+    permalink: /:collection/:name
+  tbr_bullpen_2023:
     sort_by: date
     output: true
     permalink: /:collection/:name

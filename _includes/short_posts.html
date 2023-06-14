@@ -1,11 +1,7 @@
----
-layout: page
----
-
 <div class="home">
   <div class="posts">
     <div class="short-posts">
-      {% for item in site.short_posts reversed %}
+      {% for item in posts reversed %}
       <p>
         <h4 class="short-title">
           <a href="{{ item.url | relative_url }}">

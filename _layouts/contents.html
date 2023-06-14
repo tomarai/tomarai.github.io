@@ -1,0 +1,19 @@
+---
+layout: page
+---
+
+<div class="row">
+{% for item in site.categories %}
+<div class="col-sm-4">
+  <div class="card">
+    <div class="card-header">
+      {{ item.title }}
+    </div>
+    <div class="card-body">
+      <p class="card-text">{{ item.short_description }}</p>
+      <a href="{{ item.url | relative_url }}" class="card-link">See posts</a>
+    </div>
+  </div>
+</div>
+{% endfor %}
+</div>
