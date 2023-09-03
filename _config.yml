@@ -3,8 +3,8 @@ baseurl: "/"
 url: "https://tomarai.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
-title: "0x0F34"
-description: "Sports & Games with data"      # used by search engines
+title: "BoTD"
+description: "Blog of things with data"      # used by search engines
 avatar: assets/img/botd.png                         # Empty for no avatar in navbar
 favicon: assets/img/square.png
 
