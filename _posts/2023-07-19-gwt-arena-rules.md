@@ -7,8 +7,6 @@ date: 2023-07-19
 tags: [GWT, Boardgame]
 ---
 
-# 概要
-
 一週間前ほどに BoardgameArena の Arena モードの新シーズンが始まりました．
 この記事では，Great Western Trail (グレートウェスタントレイル) に加わった新しいルール変更についておさらいしていきます．
 
